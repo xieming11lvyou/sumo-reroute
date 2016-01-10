@@ -1,0 +1,7 @@
+
+<flows>
+    <vType accel="1.5" decel="4.5" id="car" length="5" maxSpeed="40" departLane="free"/>
+    <vType accel="0.4" decel="4.5" id="truck" length="7" maxSpeed="40" departLane="free"/>
+         <flow id="type0" color="0,1,0"  begin="0" end= "1" type="car" number="14" from="1to2" to="2to1" />
+         <flow id="type1" color="1,1,0"  begin="0" end= "1" type="truck" number="14" from="2to1" to="1to2" />
+</flows>

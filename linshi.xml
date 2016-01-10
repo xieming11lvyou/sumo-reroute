@@ -1,0 +1,17 @@
+    <vehicle id="obu" type="car" depart="0.00" color="green">
+        <route edges="0to1"/>
+    </vehicle>
+      <vehicle id="rsu" type="car" depart="0.001" color="green">
+        <route edges="3to2"/>
+    </vehicle>
+
+
+
+$node_(8) set X_ 7.1
+$node_(8) set Y_ -4.95
+$node_(8) set Z_ 0
+$ns_ at 0.0 "$node_(8) setdest -10 0.00 0.00"
+$node_(9) set X_ 7.1
+$node_(9) set Y_ -4.95
+$node_(9) set Z_ 0
+$ns_ at 0.0 "$node_(9) setdest 2010 0.00 0.00"

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges version="0.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/edges_file.xsd">
+    <edge from="1" id="1to2" to="2" type="edgeType1"/>
+    <edge from="2" id="2to1" to="1" type="edgeType1"/>
+</edges>
